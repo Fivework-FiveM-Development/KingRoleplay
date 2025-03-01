@@ -3003,4 +3003,12 @@ return {
             image = "recyclablematerial.png",
         }
     },
+
+    clothes = {
+        label = "clothes",
+        weight = 1000,
+        stack = false,
+        description = "A mix of clothes to wear",
+    },
+
 }
