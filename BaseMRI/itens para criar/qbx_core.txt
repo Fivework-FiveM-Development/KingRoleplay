@@ -1,0 +1,7 @@
+resources/[qbx]/qbx_core/shared/items.lua
+
+
+-- meus itens 
+['polvora'] = { ['name'] = 'polvora', ['label'] = 'Polvora', ['weight'] = 200, ['type'] = 'item', ['image'] = 'polvora.png', ['unique'] = false, ['useable'] = true, ['description'] = 'Usado para explosivos e munições.'}
+
+

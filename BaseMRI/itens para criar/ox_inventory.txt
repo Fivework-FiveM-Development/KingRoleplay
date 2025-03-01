@@ -1,0 +1,4 @@
+resources/[ox]/ox_inventory/data/items.lua
+
+---[[ meus itens ]]
+
