@@ -18,7 +18,7 @@
       "phoneNumberFormat": "/(\\d{3})(\\d{3})(\\d{4})/"
     },
     "contacts": {
-      "frameworkPay": false,
+      "frameworkPay": true,
       "payResource": "my-core-resource",
       "payFunction": "myCheckerFunction"
     },
@@ -98,8 +98,8 @@
       "sentryEnabled": true
     },
     "defaultContacts": [],
-    "disabledApps": ["BROWSER"],
-    "apps": ["pefcl", "npwd_qbx_mail", "npwd_qbx_garages"],
+    "disabledApps": [""],
+    "apps": ["npwd_pefcl","pefcl", "npwd_qbx_mail", "npwd_qbx_garages","ps-banking"],
     "voiceMessage": {
       "enabled": true,
       "authorizationHeader": "Authorization",
