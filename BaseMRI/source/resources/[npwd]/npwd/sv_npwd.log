@@ -2881,3 +2881,39 @@
 {"level":"info","message":"Executed query (SELECT id FROM npwd_marketplace_listings WHERE identifier = ? [\"PIFC06T7\"]) in 199.8065ms'","module":"DBInterface","timestamp":"2025-02-27T12:00:07.732Z"}
 {"level":"info","message":"Executed query (DELETE FROM npwd_marketplace_listings WHERE identifier = ? AND reported = 0 [\"PIFC06T7\"]) in 27.5865ms'","module":"DBInterface","timestamp":"2025-02-27T12:00:07.760Z"}
 {"level":"info","message":"Unloaded NPWD Player, source: (1)","module":"player","timestamp":"2025-02-27T12:00:07.760Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-03-01T14:05:53.415Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-03-01T14:05:53.417Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-03-01T14:05:53.417Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2025-03-01T14:05:53.419Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2025-03-01T14:05:53.419Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-03-01T14:05:53.419Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-03-01T14:05:53.419Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-03-01T14:05:53.420Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-03-01T14:05:53.420Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-03-01T14:05:53.435Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-03-01T14:05:53.435Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-03-01T14:05:53.436Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-03-01T14:05:56.541Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-03-01T14:05:56.552Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"mri_kingroleplay_v2\",\"players\"]) in 367.3279ms'","module":"DBInterface","timestamp":"2025-03-01T14:05:57.909Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 19.7174ms'","module":"DBInterface","timestamp":"2025-03-01T14:05:57.928Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-03-01T14:05:57.929Z"}
+{"level":"debug","message":"1 failed to unload, likely was never loaded in the first place.","module":"player","timestamp":"2025-03-01T14:08:42.552Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-03-01T14:10:58.302Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-03-01T14:10:58.303Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-03-01T14:10:58.303Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2025-03-01T14:10:58.303Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2025-03-01T14:10:58.304Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-03-01T14:10:58.304Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-03-01T14:10:58.304Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-03-01T14:10:58.305Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-03-01T14:10:58.305Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-03-01T14:10:58.320Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-03-01T14:10:58.320Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-03-01T14:10:58.321Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-03-01T14:11:13.153Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-03-01T14:11:13.164Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"mri_kingroleplay_v2\",\"players\"]) in 221.4773ms'","module":"DBInterface","timestamp":"2025-03-01T14:11:14.375Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 15.2515ms'","module":"DBInterface","timestamp":"2025-03-01T14:11:14.391Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-03-01T14:11:14.391Z"}
+{"level":"debug","message":"1 failed to unload, likely was never loaded in the first place.","module":"player","timestamp":"2025-03-01T14:16:48.027Z"}
