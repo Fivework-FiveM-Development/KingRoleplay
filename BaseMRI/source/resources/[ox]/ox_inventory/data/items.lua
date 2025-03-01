@@ -65,28 +65,28 @@ return {
 			image = "liquid_fertilizer.png",
 		},
 	},
-	["weed_lemonhaze_seed"] = {
+	["weed_seed"] = {
 		label = "Semente de Maconha",
 		weight = 20,
 		stack = true,
 		close = true,
 		description = "Plante preguiça.",
 	},
-	["weed_lemonhaze"] = {
+	["weed"] = {
 		label = "Maconha",
 		weight = 20,
 		stack = true,
 		close = false,
 		description = "Um verdinho daquele que o Gordela gosta...",
 	},
-	["coca_seed"] = {
+	["coke_seed"] = {
 		label = "Semente de Coca",
 		weight = 20,
 		stack = true,
 		close = true,
 		description = "Plante ansiedade.",
 	},
-	["coca"] = {
+	["coke"] = {
 		label = "Cocaína",
 		weight = 20,
 		stack = true,
@@ -119,6 +119,10 @@ return {
 		stack = true,
 		close = true,
 		description = "Tijolo de maconha de 1 kg para vender para clientes grandes.",
+		client = {
+			image = "weed_brick.png",
+		},
+
 	},
 	["meth"] = {
 		label = "Metanfetamina",
@@ -147,6 +151,9 @@ return {
 		stack = true,
 		close = true,
 		description = "Fuma, fuma, fuma, folha de bananeira...",
+		client = {
+			image = "weedsack.png",
+		},
 	},
 	["cokebaggy"] = {
 		label = "Saco de Cocaína",
@@ -824,7 +831,7 @@ return {
 			export = "randol_ghosthunting.ghostcam",
 		},
 	},
-
+	
 	['camera'] = {
 		label = 'Câmera',
 		weight = 1500,
@@ -844,7 +851,7 @@ return {
 		},
 		description = "Uma câmera profissional para tirar uma foto discreta da esposa do seu vizinho!"
 	},
-
+	
 	['photo'] = {
 		label = 'Foto',
 		weight = 100,
@@ -873,7 +880,7 @@ return {
 		},
 		description = "Uma foto tirada com uma câmera."
 	},
-
+	
 	["guide"] = {
 		label = "Guia Iniciante",
 		weight = 475,
@@ -3002,5 +3009,25 @@ return {
         client = {
             image = "recyclablematerial.png",
         }
-    },
+    },	
+
+
+
+------
+["polvora"] = {
+	label = "Polvora",
+	weight = 100,
+	stack = true,
+	close = false,
+	description = "Usado para Munições e Fogos de Artificio .",
+	client = {
+		image = "polvora.png",
+	}
+},	
+
+
+
+
+
+
 }

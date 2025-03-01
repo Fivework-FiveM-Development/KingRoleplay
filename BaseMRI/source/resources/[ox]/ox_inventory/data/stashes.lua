@@ -8,7 +8,7 @@ return {
 			heading = 0,
 			minZ = 29.49,
 			maxZ = 32.09,
-			label = 'Open personal locker'
+			label = 'Armário Pessoal'
 		},
 		name = 'policelocker',
 		label = 'Personal locker',

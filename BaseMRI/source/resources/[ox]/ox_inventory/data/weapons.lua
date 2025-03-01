@@ -1,7 +1,7 @@
 return {
 	Weapons = {
-		['WEAPON_BATTLERIFLE'] = {
-			label = 'Battle Rifle',
+		['WEAPON_BATTLERIFLE'] = { --  parafal
+			label = 'FN-FAL - 7.62x39',
 			weight = 3300,
 			durability = 0.03,
 			ammoname = 'ammo-rifle2',
@@ -21,8 +21,8 @@ return {
 			ammoname = 'ammo-9',
 		},
 
-		['WEAPON_ADVANCEDRIFLE'] = {
-			label = 'Advanced Rifle',
+		['WEAPON_ADVANCEDRIFLE'] = { -- famas
+			label = 'Advanced Rifle - 5.56x45',
 			weight = 3100,
 			durability = 0.03,
 			ammoname = 'ammo-rifle',
@@ -35,18 +35,18 @@ return {
 			ammoname = 'ammo-9',
 		},
 
-		['WEAPON_ASSAULTRIFLE'] = {
-			label = 'Assault Rifle',
+		['WEAPON_ASSAULTRIFLE'] = { -- ak-47
+			label = 'AK-47  - 7.62x39',
 			weight = 4500,
 			durability = 0.03,
 			ammoname = 'ammo-rifle2',
 		},
 
-		['WEAPON_ASSAULTRIFLE_MK2'] = {
-			label = 'Assault Rifle MK2',
+		['WEAPON_ASSAULTRIFLE_MK2'] = { -- ak-103
+			label = 'AK-103',
 			weight = 2950,
 			durability = 0.03,
-			ammoname = 'ammo-rifle2',
+			ammoname = 'ammo-rifle2  - 7.62x39',
 		},
 
 		['WEAPON_ASSAULTSHOTGUN'] = {
@@ -57,7 +57,7 @@ return {
 		},
 
 		['WEAPON_ASSAULTSMG'] = {
-			label = 'Assault SMG',
+			label = 'Aug SMG',
 			weight = 2900,
 			durability = 0.05,
 			ammoname = 'ammo-rifle'
@@ -76,19 +76,19 @@ return {
 		},
 
 		['WEAPON_BATTLEAXE'] = {
-			label = 'Battle Axe',
+			label = 'Machado de Batalha',
 			weight = 6500,
 			durability = 0.1,
 		},
 
 		['WEAPON_BOTTLE'] = {
-			label = 'Bottle',
+			label = 'Garrafa Quebrada',
 			weight = 350,
 			durability = 0.1,
 		},
 
 		['WEAPON_BULLPUPRIFLE'] = {
-			label = 'Bullpup Rifle',
+			label = 'M-TAR 21 - 5.56x45',
 			weight = 2900,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
@@ -114,15 +114,15 @@ return {
 			throwable = true,
 		},
 
-		['WEAPON_CARBINERIFLE'] = {
-			label = 'Carbine Rifle',
+		['WEAPON_CARBINERIFLE'] = { -- m4a1
+			label = 'M4A1 - 5.56X45',
 			weight = 3100,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
 
-		['WEAPON_CARBINERIFLE_MK2'] = {
-			label = 'Carbine Rifle MK2',
+		['WEAPON_CARBINERIFLE_MK2'] = {-- m4a4
+			label = 'M4A4 - 5.56X45',
 			weight = 3000,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
@@ -425,8 +425,8 @@ return {
 			ammoname = 'ammo-rifle'
 		},
 
-		['WEAPON_MINISMG'] = {
-			label = 'Mini SMG',
+		['WEAPON_MINISMG'] = { -- skorpion 
+			label = 'Skorpion 9mm',
 			weight = 1270,
 			durability = 0.05,
 			ammoname = 'ammo-9'
@@ -477,7 +477,7 @@ return {
 		},
 
 		['WEAPON_PISTOL'] = {
-			label = 'Pistol',
+			label = 'Pistola 9mm',
 			weight = 1130,
 			durability = 0.1,
 			ammoname = 'ammo-9',
@@ -491,7 +491,7 @@ return {
 		},
 
 		['WEAPON_PISTOL_MK2'] = {
-			label = 'Pistol MK2',
+			label = 'FN Five-SeveN 9mm',
 			weight = 1000,
 			durability = 0.5,
 			ammoname = 'ammo-9'
@@ -585,14 +585,14 @@ return {
 		},
 
 		['WEAPON_SMG'] = {
-			label = 'SMG',
+			label = 'MP-5 9mm',
 			weight = 3084,
 			durability = 0.8,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_SMG_MK2'] = {
-			label = 'SMG Mk2',
+			label = 'EVO-3 9mm',
 			weight = 2700,
 			durability = 0.05,
 			ammoname = 'ammo-9'
@@ -704,8 +704,8 @@ return {
 			ammoname = 'ammo-sniper'
 		},
 
-		['WEAPON_TACTICALRIFLE'] = {
-			label = 'Tactical Rifle',
+		['WEAPON_TACTICALRIFLE'] = { --  m16
+			label = 'M-16',
 			weight = 3400,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
