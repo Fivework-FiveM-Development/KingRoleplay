@@ -1,0 +1,34 @@
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-03-01T23:08:27.998Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-03-01T23:08:28.023Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-03-01T23:08:28.023Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2025-03-01T23:08:28.024Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2025-03-01T23:08:28.024Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-03-01T23:08:28.024Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-03-01T23:08:28.024Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-03-01T23:08:28.025Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-03-01T23:08:28.025Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-03-01T23:08:28.081Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-03-01T23:08:28.081Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-03-01T23:08:28.081Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-03-01T23:08:32.159Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-03-01T23:08:32.171Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"kingroleplay_mri_v2\",\"players\"]) in 87.4867ms'","module":"DBInterface","timestamp":"2025-03-01T23:08:34.248Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 47.9005ms'","module":"DBInterface","timestamp":"2025-03-01T23:08:34.296Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-03-01T23:08:34.296Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-03-01T23:08:52.880Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-03-01T23:08:52.882Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-03-01T23:08:52.883Z"}
+{"level":"info","message":"Loading QBX bridge....","timestamp":"2025-03-01T23:08:52.883Z"}
+{"level":"info","message":"QBX bridge initialized","timestamp":"2025-03-01T23:08:52.883Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-03-01T23:08:52.887Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-03-01T23:08:52.888Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-03-01T23:08:52.888Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-03-01T23:08:52.888Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-03-01T23:08:52.914Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-03-01T23:08:52.917Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-03-01T23:08:52.918Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-03-01T23:08:55.968Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-03-01T23:08:55.980Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"kingroleplay_mri_v2\",\"players\"]) in 231.9471ms'","module":"DBInterface","timestamp":"2025-03-01T23:08:57.201Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN players []) in 20.293ms'","module":"DBInterface","timestamp":"2025-03-01T23:08:57.221Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-03-01T23:08:57.222Z"}
