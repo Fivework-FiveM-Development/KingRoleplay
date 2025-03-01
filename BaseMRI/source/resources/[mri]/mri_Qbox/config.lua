@@ -101,7 +101,7 @@ cfg.disableblindfiring = {
 }
 
 cfg.realisticrecoil = {
-    hideCrosshair = true,                  -- Hide builtin GTA crosshair while aiming?
+    hideCrosshair = false,                  -- Hide builtin GTA crosshair while aiming?
     drunkAiming = true,                    -- Enable "drunk" aiming?
     verticalRecoil = true,                 -- Enable realistic vertical recoil while shooting?
     disableAimPunching = true,             -- Disables punching with [R] and other keys while aiming
@@ -155,7 +155,7 @@ cfg.drift = {
 }
 
 cfg.mercosulplates = {
-    toggle = false,                          -- (deprecated, use a versão do gordela: mri_Qcarplates) true para ativar placas do mercosul nos veículos
+    toggle = true,                          -- (deprecated, use a versão do gordela: mri_Qcarplates) true para ativar placas do mercosul nos veículos
 }
 
 return cfg

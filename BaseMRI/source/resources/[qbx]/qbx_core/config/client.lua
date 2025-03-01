@@ -2,7 +2,7 @@ return {
     statusIntervalSeconds = 5, -- how often to check hunger/thirst status to remove health if 0.
     loadingModelsTimeout = 60000, -- Waiting time for ox_lib to load the models before throws an error, for low specs pc
 
-    pauseMapText = 'mri Qbox Brasil', -- Text shown above the map when ESC is pressed. If left empty 'FiveM' will appear
+    pauseMapText = 'King Roleplay', -- Text shown above the map when ESC is pressed. If left empty 'FiveM' will appear
 
     characters = {
         imageURL = 'https://cfx-nui-mri_Qbox/web-side/icones/logo24.png',

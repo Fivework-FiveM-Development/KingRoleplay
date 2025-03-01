@@ -62,14 +62,14 @@ const config = {
   ],
 
   locales: {
-    headerTitle: "MRI QBOX", // Título do cabeçalho
+    headerTitle: "KING ROLEPLAY", // Título do cabeçalho
     headerSubtitles: [
       "A maior comunidade opensource Brasileira de FiveM!",
       "Entre em nossa comunidade no discord!",
       // Você pode adicionar mais legendas
     ],
     cardTitles: [
-      "Bem-vindo à base MRI QBOX!",
+      "Bem-vindo à base KING ROLEPLAY!",
       "Crie e gerencie seu servidor dentro do jogo!",
       "Entre em nossa Comunidade do Discord!",
       // Você pode adicionar mais títulos
@@ -83,7 +83,7 @@ const config = {
     serverGalleryTitle: "Memórias", // Título para a seção da galeria do servidor
     serverGalleryDescription: "São valiosas...", // Descrição da seção da galeria do servidor
     socialMediaText: "Conheça nosso trabalho!", // Texto para seção de mídia social
-    socialMediaLinkText: "MRI QBOX", // Texto do link para seção de mídia social
-    socialMediaLinkURL: "https://discord.gg/uEfGD4mmVh", // URL do link para seção de mídia social
+    socialMediaLinkText: "KING ROLEPLAY", // Texto do link para seção de mídia social
+    socialMediaLinkURL: "https://discord.gg/vcznTrEMtJ", // URL do link para seção de mídia social
   },
 };

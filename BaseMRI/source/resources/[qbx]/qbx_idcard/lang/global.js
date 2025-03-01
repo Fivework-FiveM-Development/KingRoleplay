@@ -1,5 +1,5 @@
 export const Global = {
-    lang_header: 'mri_Qbox Brasil',
+    lang_header: 'King Roleplay',
     lang_lastname: 'Sobrenome',
     lang_firstname: 'Nome',
     lang_dob: 'Data de Nascimento',

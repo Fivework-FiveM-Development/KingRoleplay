@@ -61,7 +61,7 @@ local function boardScaleform(data)
             Wait(0)
         end
     end)
-    callScaleformMethod(handle, 'SET_BOARD', 'MRI QBOX', data.name, 'Desconectado.', ('Motivo: %s'):format(data.reason), 0, data.id, 116)
+    callScaleformMethod(handle, 'SET_BOARD', 'King Roleplay', data.name, 'Desconectado.', ('Motivo: %s'):format(data.reason), 0, data.id, 116)
 end
 
 local function attachBoard(ped)

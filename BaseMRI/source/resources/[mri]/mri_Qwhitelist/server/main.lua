@@ -244,7 +244,7 @@ lib.callback.register(
                         title = "Dados Pré-Exame",
                         fields = fields,
                         footer = {
-                            text = "MRI QBOX ⋅ " .. os.date("%d/%m/%Y %X"),
+                            text = "KING ROLEPLAY ⋅ " .. os.date("%d/%m/%Y %X"),
                             icon_url = "https://assets.mriqbox.com.br/branding/logo96.png"
                         },
                         color = color
