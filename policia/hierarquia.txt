@@ -1,0 +1,49 @@
+PM - Hierarquia
+Categoria por Patentes:
+
+Alunos:
+
+
+Recruta
+Cadete
+Praças:
+
+Soldado
+Cabo
+3° Sargento
+2° Sargento
+1° Sargento
+Subtenente
+Oficiais Subalternos:
+
+Aspirante
+2° Tenente
+1° Tenente
+Oficiais Intermediários:
+
+Capitão
+Oficiais Superiores:
+
+Major
+Tenente-Coronel
+Coronel
+
+Hierarquia Comum:
+
+Recruta
+Soldado
+Cabo
+3° Sargento
+2° Sargento
+1° Sargento
+Subtenente
+Cadete
+Aspirante
+2° Tenente
+1° Tenente
+Capitão
+Major
+Tenente-Coronel
+Coronel
+Subcomandante, Coronel
+Comandante Geral, Coronel

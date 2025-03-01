@@ -1,0 +1,9 @@
+================================================================
+======== txAdmin v7.3.2 atop fxserver 12949 Starting - 01/03/2025 07:24:22
+================================================================
+[07:24:53][SergioBole] created admins file
+[07:39:10][SergioBole] Changing global settings via setup stepper and started Deployer.
+[07:43:20][SergioBole] Setting recipe.
+[07:44:47][SergioBole] Running recipe.
+[07:50:01][SergioBole] Completed and committed server deploy.
+[07:50:21][SergioBole] executed "RESTART SERVER"

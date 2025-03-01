@@ -1,0 +1,30 @@
+PM - Códigos
+Códigos da Comunicação:
+
+
+QAP - Está na escuta?
+QRD - Para onde vai e/ou de onde vem?
+QRE - A que horas pensa em chegar (Está sobre) (Local)?
+QRI - Perguntar sobre sua estação ou seja se estão escutando bem. A resposta deve ser: Boa; Variável; Ruim.
+QRJ - Quantas operações tem para fazer?
+QRL - Você está Ocupado?; Estou ocupado.
+QRO - Devo aumentar o volume do transmissor?
+QRP - Devo diminuir o volume do transmissor?
+QRQ - Devo falar mais depressa?
+QRS - Devo Falar mais devagar?
+QRV - Está (Estão) preparado(s)?
+QRW - Devo avisar que você chama-o?
+QRZ - Quem está me chamando?
+QSE - Qual o local do suporte?
+QSF - O suporte deu certo? / Sim deu certo tantos foram feridos e/ou mortos.
+QSL - Acuse recebimento de mensagem.
+QSM - Repita mensagem.
+QTK - Qual a sua velocidade?
+QTN - A que horas saio do local?
+QTY - Você está seguindo para o local do fato?
+QTZ - Você continua a busca?
+QUA - Tem notícias do procurado?
+QUB - Me passa toda a localização tática.
+QRX - Ocupado
+TKS - Obrigado pelos serviços prestados.
+PS - Hospital
