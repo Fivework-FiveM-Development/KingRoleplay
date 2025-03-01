@@ -821,3 +821,4 @@
 [          script:lvc] 
 [ citizen-server-impl] server thread hitch warning: timer interval of 307 milliseconds
 [ citizen-server-impl] server thread hitch warning: timer interval of 197 milliseconds
+[ citizen-server-main] -> Quitting: SIGHUP received
