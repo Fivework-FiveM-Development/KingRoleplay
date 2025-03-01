@@ -7,8 +7,8 @@ sets tags "mri, qbox"
 
 ## You MAY edit the following:
 sv_licenseKey "cfxk_AtTt4GOQgdEQKIR2VIJO_2joS3J"
-sv_hostname "King Roleplay - MRI criado com mri_Qbox por MRI QBOX Brasil!"
-sets sv_projectName "[mri_Qbox] King Roleplay - MRI"
+sv_hostname "KING ROLEPLAY criado com mri_Qbox por MRI QBOX Brasil!"
+sets sv_projectName "[mri_Qbox] KING ROLEPLAY"
 sets sv_projectDesc "Um projeto baseado na framework QBOX, desenvolvido pela comunidade MRI QBOX Brasil."
 sets locale "pt-BR"
 load_server_icon myLogo.png

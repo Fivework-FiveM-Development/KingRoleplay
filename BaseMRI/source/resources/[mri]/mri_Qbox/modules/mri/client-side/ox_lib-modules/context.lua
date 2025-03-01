@@ -163,7 +163,7 @@ function AbrirMenuJogador()
     lib.registerContext({
         id = 'menu_jogador',
         title = '![logo]('..imageUrl..') Olá '..PlayerData.charinfo.firstname,
-        description = 'BEM VINDO À KING ROLEPLAY',
+        description = 'BEM VINDO À MRI QBOX',
         options = options
     })
 

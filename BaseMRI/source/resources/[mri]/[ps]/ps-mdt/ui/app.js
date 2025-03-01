@@ -90,7 +90,7 @@ function getFormattedDate(date, prefomattedDate = false, hideYear = false) {
 }
 
 var quotes = [
-  'Projeto King Roleplay no Topo!',
+  'Projeto mri_QBox no Topo!',
   'Uma reescrita do Discord resolve tudo...',
   'Alguém realmente lê isso?',
   'A melhor maneira de prever o seu futuro é criá-lo.',

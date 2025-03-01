@@ -1,14 +1,15 @@
 ================================================================
-======== txAdmin v7.3.2 atop fxserver 12949 Starting - 01/03/2025 07:24:22
+======== txAdmin v7.3.2 atop fxserver 12949 Starting - 01/03/2025 10:44:20
 ================================================================
-[07:24:53][SergioBole] created admins file
-[07:39:10][SergioBole] Changing global settings via setup stepper and started Deployer.
-[07:43:20][SergioBole] Setting recipe.
-[07:44:47][SergioBole] Running recipe.
-[07:50:01][SergioBole] Completed and committed server deploy.
-[07:50:21][SergioBole] executed "RESTART SERVER"
+[10:45:09][SergioBole] created admins file
+[10:45:30][SergioBole] Changing global settings via setup stepper and started Deployer.
+[10:45:38][SergioBole] Setting recipe.
+[10:46:08][SergioBole] Running recipe.
 ================================================================
-======== txAdmin v7.3.2 atop fxserver 12949 Starting - 01/03/2025 09:47:50
+======== txAdmin v7.3.2 atop fxserver 13079 Starting - 01/03/2025 10:48:50
 ================================================================
-[09:48:35][SergioBole] logged in from 127.0.0.1 via cfxre
-[09:55:35][SergioBole] executed "RESTART SERVER"
+[10:49:04][SergioBole] logged in from 127.0.0.1 via cfxre
+[10:49:33][SergioBole] Changing global settings via setup stepper and started Deployer.
+[10:49:36][SergioBole] Setting recipe.
+[10:49:51][SergioBole] Running recipe.
+[10:55:24][SergioBole] Completed and committed server deploy.

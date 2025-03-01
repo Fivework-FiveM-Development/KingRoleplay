@@ -4,15 +4,49 @@ import WeightBar from '../utils/WeightBar';
 import InventorySlot from './InventorySlot';
 import { getTotalWeight } from '../../helpers';
 import { useAppSelector } from '../../store';
-import { selectLeftInventory } from '../../store/inventory';
 import { useIntersection } from '../../hooks/useIntersection';
+import UserIcon from '../utils/icons/UserIcon';
+import StoreIcon from '../utils/icons/StoreIcon';
+import ToolsIcon from '../utils/icons/TooltsIcon';
+import BoxIcon from '../utils/icons/BoxIcon';
+import VehicleIcon from '../utils/icons/VehicleIcon';
+import GroundIcon from '../utils/icons/GroundIcon';
+import { maincolor } from '../../store/maincolor';
 
-const InventoryGrid: React.FC<{ inventory: Inventory, direction: 'left' | 'right' }> = ({ inventory, direction }) => {
+
+const PAGE_SIZE = 30;
+
+const InventoryGrid: React.FC<{ inventory: Inventory }> = ({ inventory }) => {
   const weight = React.useMemo(
     () => (inventory.maxWeight !== undefined ? Math.floor(getTotalWeight(inventory.items) * 1000) / 1000 : 0),
     [inventory.maxWeight, inventory.items]
   );
-  const isPlayerInventory = inventory.type === 'player';
+
+  const weightPercent = React.useMemo(() => (inventory.maxWeight ? (weight / inventory.maxWeight) * 100 : 0), [weight]);
+
+  const inventoryIcon = React.useMemo(() => {
+    switch (inventory.type) {
+      case 'player':
+        return <UserIcon />;
+      case 'shop':
+        return <StoreIcon />;
+      case 'crafting':
+        return <ToolsIcon />;
+      case 'stash':
+        return <BoxIcon />;
+      case 'drop':
+        return <GroundIcon />;
+      case 'vehicle':
+        return <VehicleIcon />;
+      case 'ground':
+        return <GroundIcon />;
+      case null:
+        return <GroundIcon />;
+      default:
+        return <GroundIcon />;
+    }
+  }, [inventory.type]);
+
   const [page, setPage] = React.useState(0);
   const containerRef = useRef(null);
   const { ref, entry } = useIntersection({ threshold: 0.5 });
@@ -23,67 +57,50 @@ const InventoryGrid: React.FC<{ inventory: Inventory, direction: 'left' | 'right
       setPage((prev) => ++prev);
     }
   }, [entry]);
-
-  const getIconOrImage = () => {
-    if (inventory.maxWeight == 96000 && inventory.type !== 'otherplayer' && inventory.type !== 'drop') {
-    }
-    switch (inventory.type) {
-      case'player':
-      return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/player.png" alt="Player Icon" />;
-      case 'newdrop':
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/drop.png" alt="New Drop" />;
-      case 'drop':
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/drop.png" alt="Drop" />;
-      case 'container':
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/stash.png" alt="Container" />;
-      case 'crafting':
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/craft.png" alt="Crafting" />;
-      case 'stash':
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/stash.png" alt="Stash" />;
-      case 'inspect':
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/search.png" alt="Inspect" />;
-      case 'otherplayer':
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/other.png" alt="Other Player" />;
-      case 'shop':
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/shoping.png" alt="Shop" />;
-      case 'trunk':
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/tunk.png" alt="Trunk" />;
-      case 'glovebox':
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/player.png" alt="Trunk" />;
-      default:
-        return <img className="inventory-icon" src="https://r2.fivemanage.com/jHnZDVypFkxPQN2ObCfMu/images/player.png" alt="Trunk" />;
-    }
-  };
-  
   return (
     <>
-      <div className="inventory-grid-wrapper" style={{ pointerEvents: isBusy ? 'none' : 'auto' }}>
-        <div>
-          <div className="inventory-grid-header-wrapper">
-          {getIconOrImage()}
-            <p>{inventory.label}</p>
-            {inventory.maxWeight && (
-              <p>
-                {weight / 1000}/{inventory.maxWeight / 1000}kg
-              </p>
-            )}
+      <div className="inventory-grid-wrapper col-span-3" style={{ pointerEvents: isBusy ? 'none' : 'auto' }}>
+        <div className={`flex items-center ${inventory.label ? 'justify-between' : 'justify-between'}`}>
+          <div className="flex items-center space-x-1 pl-2 pr-4 py-2">
+            <div className="">{inventoryIcon}</div>
+            {inventory.type && inventory.label && <span>{inventory.label}</span>}
+            {inventory.type && !inventory.label && <span>Chão</span>}
           </div>
-          <WeightBar percent={inventory.maxWeight ? (weight / inventory.maxWeight) * 100 : 0} />
+
+          {inventory.maxWeight && (
+            <div className="inline-flex items-center bg-green-50/0 bg-opacity-60 rounded-md float-right">
+              <div className="px-2 py-2 bg-gray-300/0 bg-opacity-20 rounded-md">
+                <div className="overflow-hidden rounded-md bg-zinc-900 h-1 w-10">
+                  <div
+                    className={`h-full transition-all duration-150 rounded-md ${
+                      weightPercent >= 90 ? 'bg-red-400' : 'bg-green-500'
+                    }`}
+                    style={{
+                      width: `${weightPercent}%`,
+                    }}
+                  />
+                </div>
+              </div>
+
+              <div className="text-sm text-gray-300">
+                <p>{`${Number((weight / 1000).toFixed(2))}/${inventory.maxWeight / 1000} KG`}</p>
+              </div>
+            </div>
+          )}
         </div>
-        <div className={direction === 'left' ? 'inventory-grid-container-left' : 'inventory-grid-container-right'} ref={containerRef}>
+
+        <div className="inventory-grid-container" ref={containerRef}>
           <>
-            {inventory.items.map((item, index) => {
-                if(index < 5 && inventory.type==='player') {
-                  return ''
-                }
-                return <InventorySlot
+            {inventory.items.slice(0, (page + 1) * PAGE_SIZE).map((item, index) => (
+              <InventorySlot
                 key={`${inventory.type}-${inventory.id}-${item.slot}`}
                 item={item}
+                ref={index === (page + 1) * PAGE_SIZE - 1 ? ref : null}
                 inventoryType={inventory.type}
                 inventoryGroups={inventory.groups}
                 inventoryId={inventory.id}
               />
-            })}
+            ))}
           </>
         </div>
       </div>
