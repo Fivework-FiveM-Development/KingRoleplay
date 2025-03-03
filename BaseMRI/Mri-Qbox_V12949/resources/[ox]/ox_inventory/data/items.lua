@@ -3003,4 +3003,21 @@ return {
             image = "recyclablematerial.png",
         }
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
