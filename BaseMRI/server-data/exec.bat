@@ -7,7 +7,7 @@ echo Cache deletado !
 @rem rmdir /s /q "source/cache"
 echo Cache deletado !
 pause 
-"../Server/FXServer.exe" +set serverProfile "default"
+"../Server/FXServer.exe"
 echo "-------------------------------------------------"
 
 

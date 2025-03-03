@@ -1,4 +1,75 @@
 resources/[ox]/ox_inventory/data/items.lua
+[ item ]
+bllack_money -> dinheiro-sujo
+money -> real
+ziplock
+pastadecoca
+molas
+cocaine
+capsula
+
+
+[ imagem ]
+tablecoke
+thermal
+usbtrojan
+cokebaggy
 
 ---[[ meus itens ]]
+["dinheiro-sujo"] = {
+	label = "Dinheiro Sujo",
+	weight = 0.1,
+	stack = true,
+	close = true,
+	description = "Notas falsificadas ?",
+	client = {
+		image = "dinheiro-sujo.png",
+	},
+},
+
+["molas"] = {
+	label = "Mola",
+	weight = 10,
+	stack = true,
+	close = true,
+	description = "Mola usada para reduzir ou aumentar força",
+	client = {
+		image = "molas.png",
+	},
+},
+
+["pastadecoca"] = {
+	label = "Pasta Base de Coca",
+	weight = 50,
+	stack = false,
+	close = true,
+	description = "Pasta base para produção de cocaina",
+	client = {
+		image = "pastadecoca.png",
+	},
+},
+
+["capsula"] = {
+	label = "Capsula",
+	weight = 0.10,
+	stack = true,
+	close = true,
+	description = "Capsula para munições.",
+	client = {
+		image = "capsula.png",
+	},
+},
+
+["ziplock"] = {
+	label = "ZipLock",
+	weight = 0.01,
+	stack = true,
+	close = true,
+	description = "Pacote plastico vazio",
+	client = {
+		image = "ziplock.png",
+	},
+},
+
+
 
