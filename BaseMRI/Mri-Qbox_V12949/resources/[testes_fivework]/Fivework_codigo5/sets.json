@@ -1,0 +1,8 @@
+{
+    "allowed_jobs": [
+        "pmesp",
+        "rota",
+        "baep",
+        "forca_tatica"
+    ]
+}
