@@ -1,0 +1,183 @@
+{
+    "wallpapers": ["BlueSabers", "GreenSabers", "NeonSabers", "OrangeSabers", "PurpleSabers", "Bubble", "BubbleB", "BubbleC", "TwistBlack", "TwistBlue", "TwistGreen", "TwistPink", "TwistRed", "TwistWhite", "IOS15", "IOS16", "Beach", "Beach2", "ClownFish", "OrbsPurple", "Globe", "GlobeNight", "Moon"],
+    "sounds": {
+        "ringtone": {
+            "default": "default.mp3",
+            "harp": "harp.mp3",
+            "apex": "apex.mp3",
+            "radar": "radar.mp3",
+            "sencha": "sencha.mp3",
+            "silk": "silk.mp3",
+            "summit": "summit.mp3"
+        },
+        "appNotifications": {}
+    },
+    "apps": {
+        "Phone": {
+            "name": "Téléphone",
+            "removable": false,
+            "size": 1900
+        },
+        "Messages": {
+            "name": "Messages",
+            "removable": false,
+            "size": 4400
+        },
+        "Notes": {
+            "name": "Notes",
+            "removable": false,
+            "size": 18600
+        },
+        "Settings": {
+            "name": "Options",
+            "removable": false,
+            "size": 2300
+        },
+        "Photos": {
+            "name": "Photos",
+            "removable": false,
+            "size": 9000
+        },
+        "Camera": {
+            "name": "Caméra",
+            "removable": false,
+            "size": 1200
+        },
+        "Weather": {
+            "name": "Météo",
+            "removable": false,
+            "size": 9400
+        },
+        "Calculator": {
+            "name": "Calculatrice",
+            "removable": false,
+            "size": 831
+        },
+        "AppStore": {
+            "name": "AppStore",
+            "removable": false,
+            "size": 84000
+        },
+        "Clock": {
+            "name": "Horloge",
+            "removable": false,
+            "size": 1200
+        },
+        "Maps": {
+            "name": "Maps",
+            "removable": false,
+            "size": 63400
+        },
+        "YellowPages": {
+            "name": "Pages Jaunes",
+            "description": "Business et services",
+            "removable": true,
+            "size": 84400
+        },
+        "MarketPlace": {
+            "name": "MarketPlace",
+            "description": "Acheter et vendre en quantité !",
+            "removable": true,
+            "size": 84400
+        },
+        "Wallet": {
+            "name": "Porte feuille",
+            "removable": false,
+            "size": 2000
+        },
+        "Home": {
+            "name": "Maison",
+            "removable": false,
+            "size": 19200
+        },
+        "Garage": {
+            "name": "Garage",
+            "removable": false,
+            "size": 17400
+        },
+        "Music": {
+            "name": "Musique",
+            "description": "Ecouter la musique des pires artistes en ville !",
+            "removable": true,
+            "size": 17400
+        },
+        "DarkChat": {
+            "name": "DarkChat",
+            "description": "Enfin de l'anonymat",
+            "removable": true,
+            "size": 98500,
+            "images": ["https://img.flashfa.fr/file/darkchat1.png", "https://img.flashfa.fr/file/darkchat2.png"]
+        },
+        "Birdy": {
+            "name": "Birdy",
+            "description": "",
+            "removable": true,
+            "size": 256700,
+            "images": []
+        },
+        "Mail": {
+            "name": "Mail",
+            "removable": false,
+            "size": 23200
+        },
+        "Services": {
+            "name": "Services",
+            "removable": false,
+            "size": 23200
+        },
+        "News": {
+            "name": "News",
+            "removable": true,
+            "size": 256700
+        },
+        "InstaPic": {
+            "name": "InstaPic",
+            "description": "",
+            "removable": true,
+            "size": 223000,
+            "images": []
+        },
+        "Trendy": {
+            "name": "Trendy",
+            "description": "",
+            "removable": true,
+            "size": 187500,
+            "images": [
+                "https://img.flashfa.fr/file/trendy1.png",
+                "https://img.flashfa.fr/file/trendy2.png",
+                "https://img.flashfa.fr/file/trendy3.png",
+                "https://img.flashfa.fr/file/trendy4.png",
+                "https://img.flashfa.fr/file/trendy5.png"
+            ]
+        },
+        "2048": {
+            "name": "2048",
+            "description": "Vous vous ennuyez tant que ça ?",
+            "images": ["https://img.flashfa.fr/file/2048.png"],
+            "removable": true,
+            "game": true,
+            "size": 64300
+        },
+        "Hacker": {
+            "name": "h4x.app",
+            "removable": true,
+            "size": 2000,
+            "hideInAppStore": true
+        }
+    },
+    "world_clock_locations": {
+        "Liberty City": "America/New_York",
+        "London": "Europe/London",
+        "Paris": "Europe/Paris",
+        "Tokyo": "Asia/Tokyo",
+        "Sydney": "Australia/Sydney",
+        "Los Angeles": "America/Los_Angeles",
+        "New Delhi": "Asia/Kolkata",
+        "Hong Kong": "Asia/Hong_Kong",
+        "Rio de Janeiro": "America/Sao_Paulo",
+        "Mexico City": "America/Mexico_City",
+        "Cape Town": "Africa/Johannesburg",
+        "Stockholm": "Europe/Stockholm",
+        "Hawaii": "Pacific/Honolulu"
+    }
+}

@@ -1,0 +1,18 @@
+RegisterCommand('restartui', function()
+    SendReactMessage('App:Restart')
+	SetNuiFocusKeepInput(false)
+    SetNuiFocus(false, false)
+    TriggerEvent('phone:restartui')
+end, true)
+
+RegisterNUICallback('Error:Catch', function(data, cb)
+    TriggerServerEvent('phone:uierror', data)
+    cb('ok')
+end)
+
+RegisterNUICallback('Error:CrashRestart', function(data, cb)
+	SetNuiFocusKeepInput(false)
+    SetNuiFocus(false, false)
+    TriggerEvent('phone:restartui')
+    cb('ok')
+end)
